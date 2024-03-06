@@ -17,6 +17,7 @@ export default () => {
     )
 
     function navigate(index: number) {
+        scrollTo(0, 0)
         setNavigationIndex(index)
         navigateTo(pages[index])
     }

@@ -8,7 +8,10 @@
     .MuiButtonBase-root {
         margin-left: 1rem;
         width: calc(50% - 1rem);
-        svg {margin-right: .5rem;}
+        max-width: 15rem;
+        svg {
+            margin-right: .5rem;
+        }
     }
 
     .MuiButtonBase-root:first-child {
