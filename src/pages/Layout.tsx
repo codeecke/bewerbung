@@ -5,7 +5,7 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import HomeIcon from '@mui/icons-material/Home';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useBlocker, useNavigate } from 'react-router-dom';
 import { CONTACT_URL, FAQ_URL, HOME_URL, TECH_STACK_URL, VITA_URL } from '../App';
 import { useState } from 'react';
 
@@ -15,6 +15,15 @@ export default () => {
     const [navigationIndex, setNavigationIndex] = useState(
         pages.indexOf(location.pathname)
     )
+    
+    useBlocker(
+        ({ nextLocation }) => {
+            const newIndex = pages.indexOf(nextLocation.pathname)
+            setNavigationIndex(newIndex)
+            return newIndex < 0
+        }
+      );
+    
 
     function navigate(index: number) {
         scrollTo(0, 0)
