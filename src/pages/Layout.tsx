@@ -5,12 +5,12 @@ import PersonIcon from '@mui/icons-material/Person';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import HomeIcon from '@mui/icons-material/Home';
 import { Outlet, useNavigate } from 'react-router-dom';
-import { HOME_URL, PERSONAL_URL, TECH_STACK_URL, VITA_URL } from '../App';
-import { useEffect, useState } from 'react';
+import { FAQ_URL, HOME_URL, TECH_STACK_URL, VITA_URL } from '../App';
+import { useState } from 'react';
 
 export default () => {
     const navigateTo = useNavigate()
-    const pages = [HOME_URL, VITA_URL, TECH_STACK_URL, PERSONAL_URL]
+    const pages = [HOME_URL, VITA_URL, TECH_STACK_URL, FAQ_URL]
     const [navigationIndex, setNavigationIndex] = useState(
         pages.indexOf(location.pathname)
     )
@@ -34,7 +34,6 @@ export default () => {
             <BottomNavigationAction label="Home" icon={<HomeIcon />} />
             <BottomNavigationAction label="Lebenslauf" icon={<SubjectIcon />} />
             <BottomNavigationAction label="Tech Stack" icon={<ConstructionIcon />} />
-            <BottomNavigationAction label="Persönliches" icon={<PersonIcon />} />
             <BottomNavigationAction label="FAQ" icon={<QuestionMarkIcon />} />
         </BottomNavigation>
     </>;

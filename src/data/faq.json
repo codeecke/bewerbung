@@ -5,10 +5,18 @@
     },
     {
         "question": "Ich habe gesehen, Du hast in Frontend-, Backend- und Führungspositionen gearbeitet. Wo siehst Du Dich bei uns?",
-        "answer": "Ich habe seit 2016 beruflich im Backend nicht mehr viel gemacht. Lediglich hier und da mal ausgeholfen, wenn Not am Mann war. In meiner Zeit als Führungskraft habe ich gezeigt, dass ich die Zügel in die Hand nehmen und als Leader vorausgehen kann. Was mir aber wirklich wichtig ist, ist dass ich programmieren kann. In der Rolle als Frontend-Entwickler gehe ich auf."
+        "answer": [
+            "Ich habe seit 2016 beruflich im Backend nicht mehr viel gemacht. Lediglich hier und da mal ausgeholfen, wenn Not am Mann war.",
+            "In meiner Zeit als Führungskraft habe ich gezeigt, dass ich die Zügel in die Hand nehmen und als Leader vorausgehen kann.",
+            "Was mir aber wirklich wichtig ist, ist dass ich programmieren kann. In der Rolle als Frontend-Entwickler gehe ich auf."
+        ]
     },
     {
         "question": "Dein Techstack deckt sich nicht 100%ig mit unserem. Bist Du bereit Dich in andere Stacks einzuarbeiten?",
         "answer": "Absolut! Ich liebe Herausforderungen und lerne wahnsinnig gerne neue Dinge."
+    },
+    {
+        "question": "Kann man sich irgendwo Code von Dir anschauen",
+        "answer": "Natürlich! Den Code dieser kleinen WebApp finden Sie im enstprechenden (http://github.com)[GitHub-Repository]"
     }
 ]

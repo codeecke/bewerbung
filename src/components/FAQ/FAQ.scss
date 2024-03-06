@@ -1,0 +1,15 @@
+.faq {
+    margin-top: 1rem;
+    padding: 1rem;
+
+    h1 + & {
+        margin-top: 3rem;
+    }
+    &__question {
+        font-weight: bold;
+    }
+
+    &__answer {
+        margin-top: 1rem;
+    }
+}

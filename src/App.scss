@@ -36,7 +36,6 @@ body * {
   margin-bottom: 6rem;
   padding: 1rem 1rem 0;
   min-height: calc(100vh - 7rem);
-  max-width: 1024px;
 }
 
 .welcome {
@@ -55,4 +54,8 @@ h1 {
 
 .MuiBottomNavigationAction-label {
   white-space: nowrap;
+}
+
+a {
+  color: #fff;
 }

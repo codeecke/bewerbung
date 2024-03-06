@@ -6,6 +6,7 @@ import TechStack from './pages/TechStack/TechStack';
 import Personal from './pages/Personal';
 import Layout from './pages/Layout';
 import Home from './pages/Home';
+import FAQ from './pages/FAQ';
 
 
 export const HOME_URL = '/'
@@ -21,15 +22,12 @@ const router = createBrowserRouter([
       {path: VITA_URL, element: <Vita />},
       {path: TECH_STACK_URL, element: <TechStack />},
       {path: PERSONAL_URL, element: <Personal />},
-      {path: FAQ_URL, element: <Personal />},
+      {path: FAQ_URL, element: <FAQ />},
     ]
   },
   
 ])
 
 export const App = () => {
-
-  
-
   return <RouterProvider router={router} />
 }
