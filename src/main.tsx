@@ -7,10 +7,10 @@ import { ThemeOptions, ThemeProvider, createTheme } from '@mui/material'
 export const themeOptions: ThemeOptions = {
   palette: {
     primary: {
-      main: '#ffffff',
+      main: '#ffca00',
     },
     secondary: {
-      main: '#ff0000',
+      main: '#ffffff',
     },
     background: {
       default: '#000000',
@@ -20,6 +20,13 @@ export const themeOptions: ThemeOptions = {
       primary: '#ffffff',
       secondary: 'rgba(255,255,255,0.44)',
       disabled: 'rgba(255,255,255,0.38)',
+    },
+  },
+  components: {
+    MuiButton: {
+        styleOverrides: {
+          colorPrimary: '#ffffff'
+        }
     },
   },
 };

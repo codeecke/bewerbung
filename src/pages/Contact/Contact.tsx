@@ -19,11 +19,11 @@ export default () => {
             <h1>Michael Hammer</h1>
             <img src={welcome} alt="Foto von mir" />
             <div className='contact__nav'>
-                <Button variant='contained' onClick={onMail}>
+                <Button variant='contained' color='secondary' onClick={onMail}>
                     <MailOutlineIcon />
                     <Typography>E-Mail</Typography>
                 </Button>
-                <Button variant='contained' onClick={onPhone}>
+                <Button variant='contained' color='secondary' onClick={onPhone}>
                     <PhoneIcon />
                     <Typography>Telefon</Typography>
                 </Button>

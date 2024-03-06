@@ -11,10 +11,15 @@ import { useState } from 'react';
 
 export default () => {
     const navigateTo = useNavigate()
+    const is_iOS = /iP(ad|od|hone)/i.test(window.navigator.userAgent)
     const pages = [HOME_URL, VITA_URL, TECH_STACK_URL, FAQ_URL, CONTACT_URL]
     const [navigationIndex, setNavigationIndex] = useState(
         pages.indexOf(location.pathname)
     )
+
+    const classNames = ['nav']
+
+    if(is_iOS) classNames.push('nav--ios')
     
     useBlocker(
         ({ nextLocation }) => {
@@ -37,7 +42,7 @@ export default () => {
             <Outlet />
         </div>
         <BottomNavigation
-            className='nav'
+            className={classNames.join(' ')}
             showLabels
             value={navigationIndex}
             onChange={(e, newValue) => {
