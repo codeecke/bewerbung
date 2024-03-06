@@ -9,8 +9,15 @@ help:
 	@printf "=%.0s" {1..60}
 	@printf "\n\n"
 
-dev: # runs the dev-environment
-	vite --host 0.0.0.0
+setup: # installs all nessesary modules
+	npm install
 
-build-prod: # builds the project for production
+dev: # runs the dev-environment
+	npx vite --host 0.0.0.0
+
+build: # builds the project for production
 	npm run build
+
+deploy: # deploys the project to server
+	make build
+	scp -r dist/* user@server:/path

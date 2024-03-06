@@ -2,7 +2,6 @@ import './FAQ.scss'
 import { TQuestion } from "../../types/TQuestion"
 import { useState } from 'react'
 import { Paper } from '@mui/material'
-import { Link } from 'react-router-dom'
 
 type TProps = {
     question: TQuestion

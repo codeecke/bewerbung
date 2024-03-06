@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Bewerbung von Michael Hammer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Es freut mich sehr, dass meine kleine WebApp Sie neugierig gemacht hat.
 
-Currently, two official plugins are available:
+In diesem Repository finden sie den vollständigen Quellcode dieser App. Das einzige, was ich zensiert habe, ist der deploy-Task in der [Makefile](./Makefile) 😉
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Zum generellen Setup
 
-## Expanding the ESLint configuration
+Ich habe es mir zur Angewohnheit gemacht, für meine neueren Projekte ein [Makefile](./Makefile) anzulegen, die alle wichtigen Befehle des Projekts enthält. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Welche das sind erfährt man mit dem CommandLine-Befehl `make`
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Projekt starten
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Ist Node auf dem PC installiert, kann das Projekt mit `make setup` installiert werden.
+
+Gestartet wird es dann mit `make dev`
+
+`make build`und `make deploy`sind dann für den Livegang zuständig.

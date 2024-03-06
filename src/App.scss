@@ -52,6 +52,10 @@ h1 {
   font-family: "Shadows Into Light", cursive;
 }
 
+.MuiBottomNavigation-root {
+  z-index: 2000;
+}
+
 .MuiBottomNavigationAction-label {
   white-space: nowrap;
 }
