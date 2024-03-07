@@ -1,8 +1,8 @@
 # Bewerbung von Michael Hammer
 
-Es freut mich sehr, dass meine kleine WebApp Sie neugierig gemacht hat.
+Es freut mich sehr, dass meine Bewerbung Sie neugierig gemacht hat.
 
-In diesem Repository finden sie den vollständigen Quellcode dieser App. Das einzige, was ich zensiert habe, ist der deploy-Task in der [Makefile](./Makefile) 😉
+In diesem Repository finden sie den vollständigen Quellcode zu meinem [Online-Lebenslauf](https://hammer-bewerbung.de/). Das einzige, was ich zensiert habe, ist der deploy-Task in der [Makefile](./Makefile) 😉
 
 ## Zum generellen Setup
 

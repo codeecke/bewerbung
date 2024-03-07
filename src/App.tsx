@@ -28,11 +28,6 @@ const router = createBrowserRouter([
   
 ])
 
-console.log('--------------------------------------------------------------')
-console.log('Hier gibts nicht viel zu sehen, aber den Code finden Sie unter')
-console.log('           https://github.com/codeecke/bewerbung')
-console.log('--------------------------------------------------------------')
-
 export const App = () => {
   return <RouterProvider router={router} />
 }
