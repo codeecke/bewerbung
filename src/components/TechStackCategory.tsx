@@ -6,7 +6,7 @@ type TProps = {
 }
 
 export default ({category}: TProps) => <>
-    <h2>{category.category}</h2>
+    <h3>{category.category}</h3>
     {category.skills.map((skill, key) => (
         <Skill 
             key={key} 

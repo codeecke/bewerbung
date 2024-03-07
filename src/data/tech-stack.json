@@ -28,16 +28,16 @@
         "category": "JavaScript-Frameworks",
         "skills": [
             {
+                "name": "React",
+                "level": 3
+            },
+            {
                 "name": "VueJS",
                 "level": 4
             },
             {
                 "name": "NuxtJS",
                 "level": 2
-            },
-            {
-                "name": "React",
-                "level": 3
             }
         ]
     },
