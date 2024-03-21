@@ -10,14 +10,21 @@ help:
 	@printf "\n\n"
 
 setup: # installs all nessesary modules
-	npm install
+	cd vue; npm install
+	cd react; npm install
 
-dev: # runs the dev-environment
-	npx vite --host 0.0.0.0
+react-dev: # runs the dev-environment
+	cd react; npx vite --host 0.0.0.0
+
+
+vue-dev: # runs the dev-environment
+	cd vue; npx vite --host 0.0.0.0
 
 build: # builds the project for production
-	npm run build
+	cd vue; npm run build
+	cd react; npm run build
 
 deploy: # deploys the project to server
 	make build
-	scp -r dist/* user@server:/path
+	scp -r react/dist/* user@server:/path/react
+	scp -r vue/dist/* user@server:/path/vue

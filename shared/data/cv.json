@@ -1,0 +1,186 @@
+[
+    {
+        "start": "06/2023",
+        "end": "08/2023",
+        "company": "DreamIT",
+        "position": "Frontend-Entwickler",
+        "tasks": [
+            "Vue",
+            "PACT-Tests",
+            "Unit-Tests mit JEST"
+        ]
+    },
+    {
+        "start": "01/2022",
+        "end": "05/2023",
+        "company": "Tallence AG",
+        "position": "Leitung des Frontend-Teams",
+        "tasks": [
+            "Fachliche und disziplinarische Führung des Frontend-Teams (8 Mitarbeiter + ich selbst)",
+            "Unterstützung in Sales-Prozessen",
+            "Technische und personelle Planung von Web-Projekten"
+        ]
+    },
+    {
+        "start": "10/2019",
+        "end": "05/2023",
+        "company": "Tallence AG",
+        "position": "Frontend-Entwickler",
+        "tasks": [
+            "Entwicklung und Wartung von Webprojekten",
+            "Beratung von Kunden"
+        ],
+        "skills": [
+            "Vue/Nuxt",
+            "Javascript",
+            "Typescript",
+            "SCSS",
+            "HTML",
+            "Freemarker Templates für Magnolia und Coremedia",
+            "Bootstrap",
+            "Orejime (Consent-Management-Library)",
+            "Webpack",
+            "Docker",
+            "Arbeiten nach Scrum und Scrumban",
+            "Erste Erfahrung mit Jasmin (JS-Testing)",
+            "KI-gestützte Entwicklung mit Github-Copilot",
+            "Figma",
+            "Adobe XD"
+        ]
+    },
+    {
+        "start": "10/2016",
+        "end": "09/2019",
+        "company": "Polargold GmbH",
+        "position": "Frontend-Entwickler",
+        "tasks": [
+            "Entwicklung und Wartung von Webprojekten",
+            "Beratung von Kunden"
+        ],
+        "skills": [
+            "Vue",
+            "Javascript",
+            "Typescript",
+            "SCSS",
+            "Docker",
+            "Webpack",
+            "Gulp"
+        ]
+    },
+    {
+        "start": "04/2016",
+        "end": "08/2016",
+        "company": "Detlev Louis Motorradvertriebs GmbH",
+        "position": "WebDeveloper",
+        "tasks": [
+            "Wartung und Weiterentwicklung des Hauseigenen Online-Shops"
+        ],
+        "skills": [
+            "PHP",
+            "MySQL",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "start": "12/2015",
+        "end": "03/2016",
+        "company": "CHECK24 Vergleichsportal GmbH",
+        "position": "PHP-Entwickler",
+        "tasks": [
+            "Wartung und Weiterentwicklung des Preisvergleichs für private Krankenversicherungen"
+        ],
+        "skills": [
+            "PHP",
+            "MySQL",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "start": "02/2015",
+        "end": "08/2015",
+        "company": "Löwenstark Online-Marketing GmbH",
+        "position": "Suchmaschinenoptimierer",
+        "tasks": [
+            "SEO-Analyse von Websites",
+            "Erstellung eines Optimierungsplans",
+            "Umsetzung des Optimierungsplans",
+            "Unterstützung meiner Kollegen bei Programmieraufgaben"
+        ]
+    },
+    {
+        "start": "02/2015",
+        "end": "08/2015",
+        "company": "S-Grafixx Ideen und Druck GmbH",
+        "position": "WebEntwickler, SEO, Online-Marketing Consultant",
+        "tasks": [
+            "Aufbau des Online-Geschäfts in einer reinen Print-Agentur"
+        ],
+        "skills": [
+            "Illustrator",
+            "Photoshop",
+            "PHP",
+            "MySQL",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "WordPress"
+        ]
+    },
+    {
+        "start": "08/2010",
+        "end": "12/2013",
+        "company": "Advertise GmbH",
+        "position": "Senior WebEntwickler",
+        "tasks": [
+            "Entwicklung von WebProjekten",
+            "Einrichtung und Wartung verschiedener Servern",
+            "Fachliche Beratung für Chef und Kollegen"
+        ],
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "DevOps"
+        ]
+    },
+    {
+        "start": "03/2009",
+        "end": "08/2010",
+        "company": "Cayou-Media",
+        "position": "WebEntwickler",
+        "tasks": [
+            "Entwicklung von Websites und Online-Portalen"
+        ],
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
+        "start": "08/2006",
+        "end": "12/2015",
+        "position": "Selbstständiger Webentwickler",
+        "tasks": [
+            "Alles was in einem Ein-Mann-Unternehmen anfällt. Vom Vertrieb über die Umsetzung bis hin zur Rechnungsstellung und Inkasso"
+        ],
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "ActionScript 3 (bis zur Einführung von Canvas mit HTML5)",
+            "Photoshop",
+            "WordPress"
+        ]
+    }
+]

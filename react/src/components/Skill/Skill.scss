@@ -1,0 +1,16 @@
+.skill {
+    display: flex;
+    padding: 1rem;
+
+    &--even {
+        background-color: rgba(#fff, .2);
+    }
+
+    &__level {
+        padding-right: 3rem;
+    }
+
+    &__name {
+        width: 50%;
+    }
+}
